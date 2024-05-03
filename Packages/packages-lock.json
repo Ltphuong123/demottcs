@@ -168,6 +168,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.test-framework": {
       "version": "1.1.33",
       "depth": 0,
@@ -218,6 +225,16 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "dev.vanhoof.tiktokliveunity": {
+      "version": "https://github.com/frankvHoof93/TikTokLiveSharp.git#TikTokLiveUnity",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.textmeshpro": "3.0.0"
+      },
+      "hash": "3b06452483f0bbc5b74199d5b39a819e248361bc"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

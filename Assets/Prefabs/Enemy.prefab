@@ -200,8 +200,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d79fef8214d65e048877dd57ae70f53b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetPoint: {fileID: 0}
-  moveSpeed: 5
+  radius: 0
+  speed: 0
+  centerPosition: {x: 0, y: 0, z: 0}
+  angle: 0
+  moveCase: 0
 --- !u!1 &3695364081601698238
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,10 +463,10 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8073673499365735381}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dff91cb9790e33644895f727c2f83d61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 10
+  time: 2
   timeSecond: 0

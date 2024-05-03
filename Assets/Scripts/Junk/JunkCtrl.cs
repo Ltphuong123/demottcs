@@ -34,7 +34,7 @@ public class JunkCtrl : MonoBehaviour
 
     public void resetJunk(JunkOS junkOS){
         this.junkOS=junkOS;
-        this.enemyDamageReceiver.reset(junkOS.hpMax);
+        this.enemyDamageReceiver.SetEnemyDamageReceiver(junkOS.hpMax);
         this.spriteRenderer.sprite=junkOS.sprite;
     }
 }

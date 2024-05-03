@@ -35,10 +35,11 @@ public class EnemyCtrl : MonoBehaviour
     }
 
 
-    public void resetEnemy(EnemySO enemySO,Transform targetPoint){
+    public void resetEnemy(EnemySO enemySO,InfoEnemy infoEnemy){
         this.enemySO=enemySO;
-        enemyDamageReceiver.reset(enemySO.hpMax);
+        enemyDamageReceiver.SetEnemyDamageReceiver(enemySO.hpMax);
         spriteRenderer.sprite=enemySO.sprite;
-        enemyFly.SetTarget(targetPoint);
+        enemyFly.SetEnemyFly(infoEnemy);
     }
+
 }

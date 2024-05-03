@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using UnityEngine;
+using UnityEngine.Timeline;
 
 public class SpawnPoint : MonoBehaviour
 {
@@ -26,7 +28,13 @@ public class SpawnPoint : MonoBehaviour
     public virtual Transform GetRandomPoint(){
         return this.points[Random.Range(0,this.points.Count)];
     }
-    
+
+    public virtual Transform GetsquadronPoint(){
+        return this.points[0];
+    }
+    public virtual Transform GetPoint(int i){
+        return this.points[i];
+    }
     public virtual List<Transform> GetListpoint(){
 
         List<Transform> GetListpoint = new List<Transform>();

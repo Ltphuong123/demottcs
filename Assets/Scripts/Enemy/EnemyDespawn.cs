@@ -6,7 +6,7 @@ public class EnemyDespawn : Despawn
 {
     public override void DespawnObj()
     {
-        EnemySpawner.Instance.Despawn(transform.parent);
+        // EnemySpawner.Instance.Despawn(transform.parent);
     }
 
 }

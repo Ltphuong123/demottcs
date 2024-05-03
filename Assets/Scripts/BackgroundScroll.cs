@@ -9,8 +9,8 @@ public class BackgroundScroll : MonoBehaviour
     void Update()
     {
         transform.Translate(this.direction*this.moveSpeed*Time.deltaTime);
-        if(transform.position.y<=-5){
-            transform.position=new Vector3(0,5,0);
+        if(transform.position.y<=-20){
+            transform.position=new Vector3(0,0,0);
         }
     }
 }
