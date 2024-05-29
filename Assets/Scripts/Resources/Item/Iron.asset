@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Iron
   m_EditorClassIdentifier: 
   itemName: iron
-  itemSprite: {fileID: 21300000, guid: c43b2c42c5444da46b6addebfe4c5226, type: 3}
+  itemSprite: {fileID: 21300000, guid: a5b6c39f21aef4641a4a04d869168659, type: 3}

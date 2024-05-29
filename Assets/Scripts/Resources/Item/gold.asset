@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: gold
   m_EditorClassIdentifier: 
   itemName: gold
-  itemSprite: {fileID: 21300000, guid: 9c6f3f0cdf680da4a9c420093989a297, type: 3}
+  itemSprite: {fileID: 21300000, guid: 399828285fd73b14fb3d9196e4d9ab0e, type: 3}

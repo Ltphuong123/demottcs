@@ -24,7 +24,7 @@ public class SpawnPoint : MonoBehaviour
         }
     }
     
-
+ 
     public virtual Transform GetRandomPoint(){
         return this.points[Random.Range(0,this.points.Count)];
     }

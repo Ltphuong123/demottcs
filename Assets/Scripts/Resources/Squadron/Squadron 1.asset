@@ -24,33 +24,40 @@ MonoBehaviour:
     radius: 0
     enemyType: 1
     moveCase: 0
+    shootType: 1
   - enemyPosition: {x: 2, y: 0, z: 0}
     speed: 5
     radius: 2
     enemyType: 0
     moveCase: 1
+    shootType: 1
   - enemyPosition: {x: -2, y: 0, z: 0}
     speed: 5
     radius: 2
     enemyType: 0
     moveCase: 1
+    shootType: 1
   - enemyPosition: {x: 0, y: 3, z: 0}
     speed: 5
     radius: 3
     enemyType: 0
     moveCase: 1
+    shootType: 1
   - enemyPosition: {x: 0, y: -3, z: 0}
     speed: 5
     radius: 3
     enemyType: 0
     moveCase: 1
+    shootType: 1
   - enemyPosition: {x: 3, y: 0, z: 0}
     speed: 5
     radius: 3
     enemyType: 0
     moveCase: 1
+    shootType: 1
   - enemyPosition: {x: -3, y: 0, z: 0}
     speed: 5
     radius: 3
     enemyType: 0
     moveCase: 1
+    shootType: 1

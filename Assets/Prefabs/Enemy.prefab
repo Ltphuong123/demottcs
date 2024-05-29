@@ -47,6 +47,8 @@ MonoBehaviour:
   shootDelay: 3
   shootTimer: 0
   bulletType: 1
+  shootType: 0
+  target: {x: 0, y: 0, z: 0}
 --- !u!1 &1782534265560489284
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,6 +260,7 @@ MonoBehaviour:
   enemyDamageReceiver: {fileID: 908355473352456571}
   spriteRenderer: {fileID: 871181528057060058}
   enemyFly: {fileID: 7028216222416486096}
+  enemyShooting: {fileID: 3541165146109911937}
 --- !u!1 &4538891611930869102
 GameObject:
   m_ObjectHideFlags: 0

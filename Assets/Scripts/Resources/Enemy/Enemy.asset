@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Enemy
   m_EditorClassIdentifier: 
   enemyName: Enemy
-  hpMax: 2
+  hpMax: 40
   sprite: {fileID: 21300000, guid: 62eedfd98aa079c4bb473f7e8e5569a8, type: 3}
   dropRates:
   - itemSO: {fileID: 11400000, guid: 0ae946e84477a4742a0d6cf2c4b12113, type: 2}
-    dropRate: 0.1
+    dropRate: 0.2
   - itemSO: {fileID: 11400000, guid: f3e6a37dae7c7ad43b10cc5c9078e78a, type: 2}
-    dropRate: 0.01
+    dropRate: 0.2
+  - itemSO: {fileID: 11400000, guid: 566febef4ac2df34590f8c13a9301814, type: 2}
+    dropRate: 0.55

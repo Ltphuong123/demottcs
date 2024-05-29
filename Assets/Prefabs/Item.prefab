@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &965709615212002878
 Transform:
   m_ObjectHideFlags: 0
@@ -101,6 +101,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1356212697022350243}
   - component: {fileID: 8466520596462245301}
+  - component: {fileID: 5215181375511558121}
+  - component: {fileID: 754941693654773695}
   m_Layer: 0
   m_Name: Item
   m_TagString: Untagged
@@ -141,6 +143,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemPickupable: {fileID: 5625813485805176792}
   spriteRenderer: {fileID: 6994722607794128523}
+--- !u!50 &5215181375511558121
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7356571282780619849}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0.5
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &754941693654773695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7356571282780619849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eddf731fed08854cb3d65eeccedba68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forceDirection: {x: 0, y: 1, z: 0}
+  forceMagnitude: 2
+  rb: {fileID: 5215181375511558121}
 --- !u!1 &7748009151261944398
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,7 +337,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 9c6f3f0cdf680da4a9c420093989a297, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

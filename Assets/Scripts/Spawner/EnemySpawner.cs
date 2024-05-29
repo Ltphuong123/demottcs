@@ -12,7 +12,7 @@ public class EnemySpawner : Spawner
     [SerializeField]protected List<Transform> Squads;
     [SerializeField]protected List<Transform> poolSquad;
     [SerializeField]protected List<SquadronSO> squadronSOs;
-    // [SerializeField] protected float shootDelay = 2f;
+    // [SerializeField] protected float shootDelay = 3f;
     // [SerializeField] protected float shootTimer = 0f;
 
     void Awake()
@@ -58,6 +58,11 @@ public class EnemySpawner : Spawner
         base.Despawn(obj);
         obj.parent = this.holder;
     }
+   
+    // void Update()
+    // {
+    //     SpawnSquad(Random.Range(0,this.squadronSOs.Count));
+    // }
     public void SpawnSquad(int SquadType){
 
         // if(this.shootTimer < this.shootDelay){
@@ -65,7 +70,7 @@ public class EnemySpawner : Spawner
         //     return;
         // }
         // this.shootTimer = 0;
-        // shootDelay=30;
+        // shootDelay=20;
 
         Transform newsquadron=GetSquadFromPool(Squads[0]);
         newsquadron.gameObject.SetActive(true);

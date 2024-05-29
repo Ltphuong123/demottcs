@@ -8,6 +8,7 @@ public class EnemyCtrl : MonoBehaviour
     [SerializeField] protected EnemyDamageReceiver enemyDamageReceiver;
     [SerializeField] protected SpriteRenderer spriteRenderer;
     [SerializeField] protected EnemyFly enemyFly;
+    [SerializeField] protected EnemyShooting enemyShooting;
     protected EnemySO enemySO;
     protected void Awake()
     {
@@ -18,7 +19,7 @@ public class EnemyCtrl : MonoBehaviour
         spriteRenderer = transform.Find("SpriteRenderer").gameObject.GetComponent<SpriteRenderer>();
         enemyDamageReceiver = transform.Find("EnemyDamageReceiver").gameObject.GetComponent<EnemyDamageReceiver>();
         enemyFly = transform.Find("EnemyFly").gameObject.GetComponent<EnemyFly>();
-
+        enemyShooting = transform.Find("EnemyShooting").gameObject.GetComponent<EnemyShooting>();
     }
     protected void Update()
     {
@@ -40,6 +41,7 @@ public class EnemyCtrl : MonoBehaviour
         enemyDamageReceiver.SetEnemyDamageReceiver(enemySO.hpMax);
         spriteRenderer.sprite=enemySO.sprite;
         enemyFly.SetEnemyFly(infoEnemy);
+        enemyShooting.SetEnemyShoot(infoEnemy);
     }
 
 }

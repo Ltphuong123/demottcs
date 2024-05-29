@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.netpyoung.webp": {
+      "version": "https://github.com/netpyoung/unity.webp.git?path=unity_project/Assets/unity.webp",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "17a9eb9c31dfc39062410e2c672291ebb9ce8b86"
+    },
     "com.unity.2d.animation": {
       "version": "9.1.0",
       "depth": 1,

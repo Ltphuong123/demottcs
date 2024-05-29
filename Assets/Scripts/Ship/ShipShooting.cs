@@ -11,6 +11,7 @@ public class ShipShooting : MonoBehaviour
     [SerializeField] public int shootingLevel=1;
     [SerializeField] protected float rotationAngle;
     [SerializeField] protected List<Transform> ListShootingPos;
+    [SerializeField]private AudioSource audioSource;
     
 
     void Reset()
@@ -39,6 +40,7 @@ public class ShipShooting : MonoBehaviour
 
         if(shooting == 0) return;
         if(this.shootTimer < this.shootDelay) return;
+        audioSource.Play();
         this.shootTimer = 0;
         if(shootingLevel % 2 ==1){
             for (int i = 0; i < shootingLevel; i++){

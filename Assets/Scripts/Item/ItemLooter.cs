@@ -5,9 +5,11 @@ using UnityEngine;
 
 public class ItemLooter : MonoBehaviour
 {
-    [SerializeField] List<ItemSO> itemSOs;
-    [SerializeField] ShipShooting shipShooting;
-    [SerializeField] PlayerDamageReceiver playerDamageReceiver;
+    [SerializeField] protected List<ItemSO> itemSOs;
+    [SerializeField] protected ShipShooting shipShooting;
+    [SerializeField] protected PlayerDamageReceiver playerDamageReceiver;
+    [SerializeField] protected Score score;
+    [SerializeField]private AudioSource audioSource;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -25,6 +27,10 @@ public class ItemLooter : MonoBehaviour
             playerDamageReceiver.Add(2);
             shipShooting.Add(1);
         }
+        if(itemSO.name=="Score"){
+            score.Add(1);
+        }
+        audioSource.Play();
         itemSOs.Add(itemPickupable.sendItem());
     }
 }

@@ -9,8 +9,8 @@ public class PlayerDamageReceiver : DamageReceiver
     protected void Awake()
     {
         this.isDead = false;
-        this.hpMax=10;
-        this.hp=10;
+        this.hpMax=100;
+        this.hp=100;
     }
     protected void  Reset()
     {
@@ -22,6 +22,7 @@ public class PlayerDamageReceiver : DamageReceiver
     protected override void CheckIsDead(){
         if (!this.IsDead()) return;
         this.isDead = true;
-        SceneManager.LoadScene("MainMenu");
+        
+        SceneManager.LoadScene("MainMenu2");
     }    
 }

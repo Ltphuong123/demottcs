@@ -11,4 +11,5 @@ public class InfoEnemy
     public float radius;
     public int enemyType;
     public int moveCase;
+    public int shootType;
 }
