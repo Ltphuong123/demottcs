@@ -3,7 +3,7 @@ Game Bắn Tàu Không Gian
 
 🎮 Thể loại: Top-down shooter
 
-🔧 Công nghệ sử dụng: Unity, C#, TikTokLiveUnity, ScriptableObject, Object Pooling, Unity Event System
+🔧 Công nghệ sử dụng: Unity, C#, TikTokLiveUnity, ScriptableObject, Object Pooling.
 
 🌟 Mô tả:
 Game bắn tàu không gian tương tác với livestream TikTok, nơi người xem tặng quà hoặc thả tim sẽ sinh ra tàu địch. Người chơi điều khiển tàu chiến bằng chuột, thu thập vật phẩm rơi ra từ kẻ địch, từ đó nâng cấp vũ khí và tăng khả năng sống sót trong các đợt tấn công ngày càng dữ dội.
