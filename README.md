@@ -18,6 +18,6 @@ Game bắn tàu không gian tương tác với livestream TikTok, nơi người 
 
 • Áp dụng Object Pooling để tối ưu hiệu năng khi sinh đạn, địch và item drop số lượng lớn.
 
-• Xây dựng hệ thống nâng cấp vũ khí theo cấp độ: đạn lan, bắn nhanh, laser,... kèm hiệu ứng nâng cao.
+• Xây dựng hệ thống nâng cấp vũ khí theo cấp độ.
 
 • Thiết kế UI hiển thị nâng cấp, vật phẩm, số điểm, máu của người chơi
